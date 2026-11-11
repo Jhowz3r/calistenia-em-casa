@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calistenia em Casa: sua primeira barra fixa em 12 semanas</title>
+<meta name="description" content="Plano de 12 semanas de calistenia para fazer em casa. Teste de nível, 7 escadas de progressão, plano dia a dia e argolas e paralelas que você monta por cerca de R$ 60.">
+<meta property="og:title" content="Calistenia em Casa: sua primeira barra fixa em 12 semanas">
+<meta property="og:description" content="Plano dia a dia, 7 escadas de progressão e equipamentos que você mesmo monta. R$ 27, acesso na hora.">
+<meta property="og:image" content="https://jhowz3r.github.io/calistenia-em-casa/img/capa.jpg"><link rel="canonical" href="https://jhowz3r.github.io/calistenia-em-casa/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0e2338; --navy-2: #13304d; --azul: #1f4e79; --laranja: #f26b1d; --laranja-esc: #d4560c;
+    --creme: #fbf7f2; --texto: #16202b; --cinza: #5a6573; --linha: #e3e7ec; --verde: #1b8a4f; --branco: #fff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: Inter, "Segoe UI", system-ui, sans-serif; color: var(--texto); background: var(--branco); font-size: 17px; line-height: 1.6; }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 22px; }
+  h1, h2, h3 { font-family: Archivo, Inter, sans-serif; letter-spacing: -.02em; line-height: 1.08; margin: 0; }
+  h2 { font-size: clamp(30px, 4vw, 46px); font-weight: 900; }
+  .kicker { font-family: Archivo, sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: 13px; color: var(--laranja); margin-bottom: 14px; }
+  .sub { font-size: 19px; color: var(--cinza); max-width: 720px; margin: 16px 0 0; }
+  section { padding: 96px 0; }
+  .center { text-align: center; } .center .sub { margin-left: auto; margin-right: auto; }
+
+  /* botoes */
+  .cta { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; background: var(--laranja); color: #fff; text-decoration: none; font-family: Archivo, sans-serif; font-weight: 900; font-size: 20px; letter-spacing: .01em; padding: 20px 38px; border-radius: 12px; box-shadow: 0 8px 0 var(--laranja-esc); transition: transform .12s, box-shadow .12s; text-transform: uppercase; }
+  .cta small { font-family: Inter, sans-serif; font-weight: 600; font-size: 13px; text-transform: none; opacity: .92; letter-spacing: 0; }
+  .cta:hover { transform: translateY(3px); box-shadow: 0 5px 0 var(--laranja-esc); }
+  .micro { margin-top: 18px; font-size: 14px; color: rgba(255,255,255,.75); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+  .micro span::before { content: "✓ "; color: #7fd1a4; font-weight: 700; }
+
+  /* hero */
+  .hero { background: radial-gradient(1200px 600px at 85% 20%, #1c4a74 0%, var(--navy) 60%); color: #fff; padding: 72px 0 110px; position: relative; overflow: hidden; }
+  .hero .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
+  .pill { display: inline-block; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18); padding: 7px 14px; border-radius: 99px; font-size: 14px; font-weight: 600; margin-bottom: 22px; }
+  .hero h1 { font-size: clamp(38px, 5.6vw, 66px); font-weight: 900; }
+  .hero h1 em { font-style: normal; color: var(--laranja); }
+  .hero p.lead { font-size: 20px; color: rgba(255,255,255,.85); margin: 22px 0 26px; max-width: 560px; }
+  .hero ul { list-style: none; padding: 0; margin: 0 0 34px; }
+  .hero li { padding: 6px 0 6px 34px; position: relative; font-size: 17px; }
+  .hero li::before { content: ""; position: absolute; left: 0; top: 9px; width: 22px; height: 22px; border-radius: 50%; background: var(--laranja) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12l4 4 8-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat; }
+
+  /* mockup livro */
+  .mock { position: relative; height: 520px; perspective: 1400px; }
+  .book { position: absolute; left: 50%; top: 50%; width: 300px; transform: translate(-50%, -50%) rotateY(-24deg) rotateX(4deg); transform-style: preserve-3d; box-shadow: 30px 40px 60px rgba(0,0,0,.45); border-radius: 4px 10px 10px 4px; }
+  .book img { border-radius: 4px 10px 10px 4px; }
+  .book::before { content: ""; position: absolute; left: -18px; top: 2px; bottom: 2px; width: 18px; background: linear-gradient(90deg, #0a1a2a, #163a5b); transform: rotateY(-90deg); transform-origin: right; }
+  .page { position: absolute; width: 190px; border-radius: 8px; box-shadow: 0 18px 40px rgba(0,0,0,.4); border: 4px solid #fff; background: #fff; }
+  .page.p1 { right: -10px; top: 20px; transform: rotate(7deg); }
+  .page.p2 { left: -10px; bottom: 10px; transform: rotate(-8deg); }
+  .selo { position: absolute; right: 30px; bottom: 30px; width: 116px; height: 116px; border-radius: 50%; background: var(--laranja); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Archivo; font-weight: 900; text-align: center; line-height: 1; transform: rotate(-10deg); box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+  .selo b { font-size: 34px; } .selo span { font-size: 12px; margin-top: 4px; letter-spacing: .05em; }
+
+  /* faixa */
+  .faixa { background: var(--laranja); color: #fff; padding: 20px 0; font-family: Archivo; font-weight: 800; font-size: 19px; }
+  .faixa .wrap { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px 30px; text-align: center; }
+
+  /* dor */
+  .dores { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 44px; }
+  .dor { background: #fff; border: 1px solid var(--linha); border-radius: 14px; padding: 24px 24px 24px 72px; position: relative; font-size: 17px; }
+  .dor::before { content: "✕"; position: absolute; left: 22px; top: 22px; width: 34px; height: 34px; border-radius: 50%; background: #fdecec; color: #c0392b; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+  .dor b { display: block; font-size: 18px; margin-bottom: 4px; }
+  .virada { margin-top: 44px; background: var(--navy); color: #fff; border-radius: 18px; padding: 38px; display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; }
+  .virada .n { font-family: Archivo; font-weight: 900; font-size: 64px; color: var(--laranja); line-height: 1; }
+  .virada p { margin: 0; font-size: 19px; color: rgba(255,255,255,.88); }
+  .virada b { color: #fff; }
+
+  /* escada */
+  .escada { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; align-items: end; margin-top: 54px; }
+  .degrau { background: #fff; border: 2px solid var(--azul); border-radius: 12px 12px 0 0; padding: 16px 12px; text-align: center; display: flex; flex-direction: column; justify-content: flex-start; }
+  .degrau .num { font-family: Archivo; font-weight: 900; color: var(--azul); font-size: 15px; }
+  .degrau .nome { font-weight: 700; font-size: 15px; margin-top: 4px; line-height: 1.25; }
+  .degrau .meta { color: var(--cinza); font-size: 13px; margin-top: 6px; }
+  .degrau.d1 { height: 130px; } .degrau.d2 { height: 165px; } .degrau.d3 { height: 200px; } .degrau.d4 { height: 235px; } .degrau.d5 { height: 270px; }
+  .degrau.d6 { height: 320px; background: var(--laranja); border-color: var(--laranja); color: #fff; }
+  .degrau.d6 .num, .degrau.d6 .meta { color: #fff; } .degrau.d6 .nome { font-size: 22px; font-family: Archivo; font-weight: 900; }
+  .chao { height: 10px; background: var(--navy); border-radius: 0 0 6px 6px; }
+  .nota { text-align: center; color: var(--cinza); margin-top: 18px; font-size: 15px; }
+
+  /* passos */
+  .passos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 48px; }
+  .passo { background: #fff; border-radius: 16px; padding: 30px; border: 1px solid var(--linha); }
+  .passo .n { width: 52px; height: 52px; border-radius: 14px; background: var(--navy); color: #fff; font-family: Archivo; font-weight: 900; font-size: 24px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+  .passo h3 { font-size: 22px; margin-bottom: 8px; }
+  .passo p { margin: 0; color: var(--cinza); }
+
+  /* galeria */
+  .galeria { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 48px; }
+  .galeria figure { margin: 0; background: #fff; border-radius: 12px; padding: 10px; box-shadow: 0 10px 30px rgba(14,35,56,.12); transition: transform .2s; }
+  .galeria figure:hover { transform: translateY(-6px) rotate(-1deg); }
+  .galeria img { border-radius: 6px; border: 1px solid var(--linha); }
+  .galeria figcaption { font-size: 14px; font-weight: 600; padding: 10px 4px 2px; }
+
+  /* fases */
+  .fases { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 48px; border-radius: 16px; overflow: hidden; }
+  .fase { padding: 30px; color: #fff; }
+  .fase.f1 { background: #2a5d8f; } .fase.f2 { background: var(--azul); } .fase.f3 { background: var(--navy); }
+  .fase .sem { font-family: Archivo; font-weight: 800; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; opacity: .8; }
+  .fase h3 { font-size: 28px; margin: 6px 0 10px; }
+  .fase p { margin: 0; opacity: .9; font-size: 16px; }
+
+  /* stack */
+  .stack { display: grid; grid-template-columns: 1.2fr .8fr; gap: 32px; margin-top: 48px; align-items: start; }
+  .itens { background: #fff; border-radius: 18px; border: 1px solid var(--linha); overflow: hidden; }
+  .item { display: grid; grid-template-columns: 56px 1fr; gap: 16px; padding: 22px 26px; border-bottom: 1px solid var(--linha); }
+  .item:last-child { border-bottom: 0; }
+  .ico { width: 56px; height: 56px; border-radius: 14px; background: var(--creme); display: flex; align-items: center; justify-content: center; font-size: 26px; }
+  .item b { display: block; font-size: 18px; }
+  .item span { color: var(--cinza); font-size: 15px; }
+  .preco { position: sticky; top: 24px; background: var(--navy); color: #fff; border-radius: 18px; padding: 34px; text-align: center; }
+  .preco .de { color: rgba(255,255,255,.7); font-size: 15px; }
+  .preco .valor { font-family: Archivo; font-weight: 900; font-size: 76px; line-height: 1; margin: 10px 0 4px; }
+  .preco .valor sup { font-size: 30px; vertical-align: top; position: relative; top: 12px; margin-right: 4px; }
+  .preco .pix { font-size: 15px; color: rgba(255,255,255,.8); margin-bottom: 26px; }
+  .preco .cta { width: 100%; }
+  .preco .micro { justify-content: center; }
+
+  /* equipamento */
+  .equip { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: center; }
+  .equip img { border-radius: 14px; box-shadow: 0 20px 50px rgba(14,35,56,.18); }
+  .lista { list-style: none; padding: 0; margin: 26px 0 0; }
+  .lista li { padding: 12px 0 12px 40px; border-bottom: 1px solid var(--linha); position: relative; }
+  .lista li::before { content: "✓"; position: absolute; left: 4px; top: 11px; width: 26px; height: 26px; border-radius: 50%; background: #e3f5ea; color: var(--verde); font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+  .lista b { font-weight: 700; }
+
+  /* para quem */
+  .quem { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 44px; }
+  .quem > div { border-radius: 16px; padding: 30px; }
+  .quem .sim { background: #eef8f2; border: 1px solid #cfe9da; }
+  .quem .nao { background: #fbf1ef; border: 1px solid #f0d7d2; }
+  .quem h3 { font-size: 22px; margin-bottom: 14px; }
+  .quem ul { margin: 0; padding-left: 20px; } .quem li { margin-bottom: 8px; }
+
+  /* garantia */
+  .garantia { display: grid; grid-template-columns: auto 1fr; gap: 40px; align-items: center; background: var(--creme); border-radius: 22px; padding: 44px; }
+  .selo-g { width: 170px; height: 170px; border-radius: 50%; border: 8px solid var(--verde); display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Archivo; font-weight: 900; color: var(--verde); text-align: center; line-height: 1; }
+  .selo-g b { font-size: 64px; } .selo-g span { font-size: 15px; letter-spacing: .08em; margin-top: 6px; }
+  .garantia h2 { font-size: 34px; margin-bottom: 12px; }
+  .garantia p { margin: 0; color: var(--cinza); font-size: 18px; }
+
+  /* faq */
+  .faq { max-width: 820px; margin: 40px auto 0; }
+  .faq details { background: #fff; border: 1px solid var(--linha); border-radius: 12px; padding: 20px 24px; margin-bottom: 12px; }
+  .faq summary { font-weight: 700; font-size: 18px; cursor: pointer; list-style: none; position: relative; padding-right: 30px; }
+  .faq summary::after { content: "+"; position: absolute; right: 0; top: -2px; font-size: 26px; color: var(--laranja); font-weight: 400; }
+  .faq details[open] summary::after { content: "−"; }
+  .faq p { color: var(--cinza); margin: 12px 0 0; }
+
+  /* final */
+  .final { background: radial-gradient(900px 500px at 50% 0%, #1c4a74 0%, var(--navy) 70%); color: #fff; text-align: center; }
+  .final h2 { max-width: 820px; margin: 0 auto; }
+  .final .sub { color: rgba(255,255,255,.8); }
+  .final .cta { margin-top: 34px; }
+  .final .micro { justify-content: center; }
+  footer { background: #0a1a2a; color: rgba(255,255,255,.55); font-size: 13px; padding: 28px 0 96px; text-align: center; }
+
+  /* barra fixa mobile */
+  .barra { position: fixed; left: 0; right: 0; bottom: 0; background: #fff; border-top: 1px solid var(--linha); padding: 10px 16px; display: none; align-items: center; justify-content: space-between; gap: 12px; z-index: 20; box-shadow: 0 -8px 24px rgba(0,0,0,.08); }
+  .barra .v { font-family: Archivo; font-weight: 900; font-size: 24px; line-height: 1; } .barra .v small { display: block; font-family: Inter; font-weight: 500; font-size: 12px; color: var(--cinza); }
+  .barra a { background: var(--laranja); color: #fff; font-family: Archivo; font-weight: 900; text-decoration: none; padding: 14px 22px; border-radius: 10px; text-transform: uppercase; font-size: 15px; }
+
+  @media (max-width: 900px) {
+    section { padding: 64px 0; }
+    .hero { padding: 48px 0 70px; }
+    .hero .grid, .stack, .equip, .quem, .garantia, .virada { grid-template-columns: 1fr; }
+    .mock { height: 400px; }
+    .book { width: 220px; }
+    .page { width: 130px; }
+    .dores, .passos, .fases { grid-template-columns: 1fr; }
+    .galeria { grid-template-columns: repeat(2, 1fr); }
+    .escada { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .degrau { height: auto !important; border-radius: 12px; min-height: 120px; }
+    .chao { display: none; }
+    .garantia { text-align: center; justify-items: center; padding: 30px 22px; }
+    .preco { position: static; }
+    .barra { display: flex; }
+    .cta { width: 100%; padding: 18px 20px; font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap grid">
+    <div>
+      <div class="pill">Plano de 12 semanas · PDF · acesso na hora</div>
+      <h1>Sua primeira <em>barra fixa</em> em 12 semanas. Em casa.</h1>
+      <p class="lead">Um plano de calistenia dia a dia, do zero, só com o peso do corpo. Você sabe exatamente o que treinar hoje, quando subir de nível e como montar os equipamentos gastando uns R$ 60.</p>
+      <ul>
+        <li>Teste de nível: você começa no degrau certo, sem se machucar</li>
+        <li>7 escadas de progressão, da flexão na parede ao muscle-up</li>
+        <li>Abdômen e flancos em todo treino, mais o básico da alimentação</li>
+      </ul>
+      <a class="cta" href="https://pay.hotmart.com/Y108437404A">Quero começar hoje<small>R$ 27 · pagamento único</small></a>
+      <div class="micro"><span>Pix ou cartão</span><span>PDF na hora</span><span>Garantia de 7 dias</span></div>
+    </div>
+    <div class="mock">
+      <img class="page p1" src="../img/escada.jpg" alt="Página da escada da primeira barra">
+      <img class="page p2" src="../img/plano.jpg" alt="Página do plano de 12 semanas">
+      <div class="book"><img src="../img/capa.jpg" alt="Capa do manual Calistenia em Casa"></div>
+      <div class="selo"><b>12</b><span>SEMANAS</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="faixa"><div class="wrap"><span>Sem academia</span><span>Sem mensalidade</span><span>Menos que um mês de academia</span><span>Seu para sempre</span></div></div>
+
+<!-- DOR -->
+<section style="background: var(--creme)">
+  <div class="wrap">
+    <div class="kicker">Se você já tentou treinar em casa</div>
+    <h2>Provavelmente aconteceu uma destas</h2>
+    <div class="dores">
+      <div class="dor"><b>Treino aleatório de vídeo</b>Cada dia um vídeo diferente. Na segunda semana você não sabe se está evoluindo.</div>
+      <div class="dor"><b>Começou difícil demais</b>Tentou a barra, não subiu nenhuma, achou que não era pra você e desistiu.</div>
+      <div class="dor"><b>100 abdominais por dia</b>E a barriga continua lá, porque ninguém te contou o que realmente tira ela.</div>
+      <div class="dor"><b>Nunca soube quando aumentar</b>Fez a mesma coisa por meses. O corpo acostumou e parou de mudar.</div>
+    </div>
+    <div class="virada">
+      <div class="n">≠</div>
+      <p>O problema nunca foi falta de academia nem de força de vontade. Foi falta de <b>progressão</b>: um caminho com degraus, onde cada treino é um pouquinho mais difícil que o anterior. É isso que este manual te entrega.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ESCADA -->
+<section>
+  <div class="wrap center">
+    <div class="kicker">O método</div>
+    <h2>A primeira barra em 6 degraus</h2>
+    <p class="sub">Ninguém começa pela barra. Você começa pendurado e sobe um degrau quando bate a meta dele em dois treinos seguidos. Simples de seguir, impossível de se perder.</p>
+    <div class="escada">
+      <div class="degrau d1"><div class="num">1</div><div class="nome">Pendurado</div><div class="meta">3 × 20 s</div></div>
+      <div class="degrau d2"><div class="num">2</div><div class="nome">Escápula</div><div class="meta">3 × 10</div></div>
+      <div class="degrau d3"><div class="num">3</div><div class="nome">Remada nas argolas</div><div class="meta">3 × 12</div></div>
+      <div class="degrau d4"><div class="num">4</div><div class="nome">Negativa</div><div class="meta">3 × 5, descendo em 5 s</div></div>
+      <div class="degrau d5"><div class="num">5</div><div class="nome">Com elástico</div><div class="meta">3 × 8</div></div>
+      <div class="degrau d6"><div class="num">6</div><div class="nome">BARRA</div><div class="meta">3 × 5</div></div>
+    </div>
+    <div class="chao"></div>
+    <p class="nota">E o mesmo para flexão, pernas, remada, mergulho, abdômen e parada de mão: 7 escadas no total.</p>
+  </div>
+</section>
+
+<!-- PASSOS -->
+<section style="background: var(--creme)">
+  <div class="wrap">
+    <div class="kicker">Como funciona</div>
+    <h2>Três passos e você já sabe o treino de hoje</h2>
+    <div class="passos">
+      <div class="passo"><div class="n">1</div><h3>Faça o teste</h3><p>7 testes rápidos (flexão, barra, prancha, cintura...). Eles dizem em que degrau de cada escada você começa.</p></div>
+      <div class="passo"><div class="n">2</div><h3>Siga o plano</h3><p>3 treinos de força por semana, mais cardio e mobilidade. Séries, repetições e descanso de cada semana já estão definidos.</p></div>
+      <div class="passo"><div class="n">3</div><h3>Suba de degrau</h3><p>Bateu a meta, sobe. Retestes nas semanas 4, 8 e 12 mostram a sua evolução em números.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section>
+  <div class="wrap center">
+    <div class="kicker">Por dentro do manual</div>
+    <h2>19 páginas direto ao ponto</h2>
+    <p class="sub">Nada de enrolação: tabelas, metas e desenhos com medidas. Feito para abrir no celular durante o treino ou imprimir.</p>
+    <div class="galeria">
+      <figure><img src="../img/teste.jpg" alt="Teste de nível"><figcaption>Teste de nível</figcaption></figure>
+      <figure><img src="../img/progressao.jpg" alt="Escadas de progressão"><figcaption>Escadas de progressão</figcaption></figure>
+      <figure><img src="../img/plano.jpg" alt="Plano de 12 semanas"><figcaption>Plano semana a semana</figcaption></figure>
+      <figure><img src="../img/ficha.jpg" alt="Ficha de progresso"><figcaption>Ficha de progresso</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- FASES -->
+<section style="background: var(--creme)">
+  <div class="wrap">
+    <div class="kicker">O plano</div>
+    <h2>12 semanas em 3 fases</h2>
+    <div class="fases">
+      <div class="fase f1"><div class="sem">Semanas 1 a 4</div><h3>Base</h3><p>Aprender a forma certa, 3 séries por exercício. Semana 4 leve, com reteste.</p></div>
+      <div class="fase f2"><div class="sem">Semanas 5 a 8</div><h3>Volume</h3><p>4 séries, menos descanso, subindo de degrau. Semana 8 leve, com reteste completo.</p></div>
+      <div class="fase f3"><div class="sem">Semanas 9 a 12</div><h3>Força</h3><p>5 séries nos degraus mais difíceis, mais 10 minutos de parada de mão. Reteste final.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="comprar">
+  <div class="wrap">
+    <div class="kicker">Tudo o que você recebe</div>
+    <h2>Um plano completo pelo preço de um lanche</h2>
+    <div class="stack">
+      <div class="itens">
+        <div class="item"><div class="ico">📋</div><div><b>Teste de nível</b><span>Descubra em 15 minutos onde começar em cada escada.</span></div></div>
+        <div class="item"><div class="ico">🪜</div><div><b>7 escadas de progressão</b><span>Flexão, barra, remada, pernas, mergulho, abdômen e flancos, parada de mão. Cada degrau com a meta para subir.</span></div></div>
+        <div class="item"><div class="ico">📅</div><div><b>Plano de 12 semanas</b><span>Treinos A e B, cardio, circuito e mobilidade, semana a semana.</span></div></div>
+        <div class="item"><div class="ico">🔥</div><div><b>Abdômen e flancos em todo treino</b><span>Prancha lateral, hollow, L-sit e elevação de pernas, do básico ao avançado.</span></div></div>
+        <div class="item"><div class="ico">🥗</div><div><b>O básico da alimentação</b><span>O que realmente tira a barriga, sem dieta maluca.</span></div></div>
+        <div class="item"><div class="ico">🛠️</div><div><b>Argolas, paralelas e barra fixa</b><span>Lista de material, passo a passo e teste de carga. Argolas por cerca de R$ 60.</span></div></div>
+        <div class="item"><div class="ico">📐</div><div><b>Moldes em tamanho real</b><span>Imprima, recorte e risque. Conferidos na régua.</span></div></div>
+        <div class="item"><div class="ico">📈</div><div><b>Ficha de progresso</b><span>Para imprimir e ver os seus números subindo.</span></div></div>
+      </div>
+      <div class="preco">
+        <div class="de">Menos do que uma mensalidade de academia</div>
+        <div class="valor"><sup>R$</sup>27</div>
+        <div class="pix">pagamento único · Pix ou cartão</div>
+        <a class="cta" href="https://pay.hotmart.com/Y108437404A">Quero o plano<small>acesso imediato ao PDF</small></a>
+        <div class="micro"><span>Garantia de 7 dias</span><span>Compra segura</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPAMENTO -->
+<section style="background: var(--creme)">
+  <div class="wrap equip">
+    <img src="../img/argola.jpg" alt="Desenho das argolas de ginástica com medidas">
+    <div>
+      <div class="kicker">Sua academia por uns R$ 60</div>
+      <h2>Você mesmo monta os equipamentos</h2>
+      <p class="sub">Argola de ginástica pronta custa mais de R$ 100. Com o manual você faz a sua com compensado, fita e fivela, e ainda as paralelas e a barra fixa.</p>
+      <ul class="lista">
+        <li><b>Argolas:</b> 2 anéis colados com as fibras cruzadas, molde em tamanho real</li>
+        <li><b>Paralelas baixas:</b> viga, caibro e tubo, com o molde do furo</li>
+        <li><b>Barra fixa no teto:</b> conexões de tubo galvanizado, medidas em cm</li>
+        <li><b>Teste de carga</b> de cada equipamento antes do primeiro treino</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUEM -->
+<section>
+  <div class="wrap">
+    <div class="kicker">Sendo honesto</div>
+    <h2>Para quem é, e para quem não é</h2>
+    <div class="quem">
+      <div class="sim"><h3>É para você se</h3><ul><li>Está começando do zero ou parou há tempo</li><li>Quer perder barriga e ficar mais forte em casa</li><li>Gosta de saber o que fazer, sem improviso</li><li>Tem 3 horas por semana para treinar</li></ul></div>
+      <div class="nao"><h3>Não é para você se</h3><ul><li>Procura resultado em 7 dias sem esforço</li><li>Não pretende mudar nada na alimentação</li><li>Quer treino de fisiculturismo com aparelhos</li><li>Tem lesão e não pode passar no médico antes</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section style="padding-top: 0">
+  <div class="wrap">
+    <div class="garantia">
+      <div class="selo-g"><b>7</b><span>DIAS DE GARANTIA</span></div>
+      <div>
+        <h2>Risco zero para você</h2>
+        <p>Baixe o manual, faça o teste, siga a primeira semana. Se não gostar, peça o reembolso em até 7 dias pela própria plataforma de pagamento e recebe 100% do valor de volta, sem perguntas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background: var(--creme)">
+  <div class="wrap center">
+    <div class="kicker">Dúvidas</div>
+    <h2>Perguntas frequentes</h2>
+    <div class="faq" style="text-align:left">
+      <details><summary>Não consigo fazer nenhuma barra. Serve para mim?</summary><p>Foi feito exatamente para isso. A escada da barra começa em ficar 20 segundos pendurado.</p></details>
+      <details><summary>Preciso comprar equipamento?</summary><p>Para começar, não: chão, parede e uma cadeira firme bastam. Para a barra e a remada você vai precisar de uma barra fixa e de argolas, e o manual ensina a montar os dois gastando pouco.</p></details>
+      <details><summary>Quanto tempo por dia?</summary><p>De 40 a 50 minutos em 3 dias da semana, mais 20 a 30 minutos de cardio leve em outros 2 dias.</p></details>
+      <details><summary>Vou perder barriga?</summary><p>A barriga sai quando o corpo todo perde gordura, e isso depende principalmente da alimentação. O manual explica o básico, e o treino segura o músculo e firma a cintura. Ninguém sério pode prometer quantos quilos você vai perder.</p></details>
+      <details><summary>Como recebo o manual?</summary><p>Logo após o pagamento você recebe por e-mail o acesso à área de membros, onde baixa o PDF. Pode abrir no celular ou imprimir.</p></details>
+      <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Pede o reembolso pela plataforma e recebe o valor de volta.</p></details>
+      <details><summary>Tenho problema de saúde. Posso fazer?</summary><p>Se tiver problema de coluna, ombro, coração ou pressão, fale com seu médico antes de começar qualquer treino.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <div class="wrap">
+    <div class="kicker">Daqui a 12 semanas</div>
+    <h2>Você pode estar fazendo a sua primeira barra. Ou ainda pensando em começar.</h2>
+    <p class="sub">O plano está pronto. Só falta o primeiro treino.</p>
+    <a class="cta" href="https://pay.hotmart.com/Y108437404A">Quero começar hoje<small>R$ 27 · acesso imediato</small></a>
+    <div class="micro"><span>Pix ou cartão</span><span>PDF na hora</span><span>Garantia de 7 dias</span></div>
+  </div>
+</section>
+
+<footer>Calistenia em Casa · Produto digital em PDF · Resultados variam de pessoa para pessoa e dependem de treino e alimentação. Consulte um médico antes de iniciar atividade física.</footer>
+
+<div class="barra"><div class="v">R$ 27<small>pagamento único</small></div><a href="https://pay.hotmart.com/Y108437404A">Quero o plano</a></div>
+
+</body>
+</html>
